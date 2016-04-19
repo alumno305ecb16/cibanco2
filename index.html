@@ -47,7 +47,7 @@
             	<li data-role="list-divider">ELIGE UNA OPCION</li>
             				
 								<li><a href="#historia">Historia</a></li>
-                                <li><a href="#seguros">Seguros</a></li>
+                             <!--   <li><a href="#seguros">Seguros</a></li>-->
                                 <li><a href="#pcreditos">Creditos</a></li>
                                 <li><a href="#etdfin">Estado Financiero Balance 2do. Trimestre 2015</a></li>
            		 				<li><a href="#pff">Resultados 2do. Trimestre 2015</a></li>
@@ -448,69 +448,6 @@
  </div>
  <!---------------------------------Sguro de auto------------------------------->
  
- <div data-role="page" id="pagesegauto" >   
-        <div data-role="header" data-position="fixed" data-tap-toggle="false">   
-        
-          
-        	 <h1>SEGURO DE AUTO</h1>
-       	</div>
-      			  
-        
-        <div data-role="main" class="ui-content" >
-        <div align="center">
-      	
-        
-        <p>El seguro de su unidad que cubre los daños que pueda llegar a tener como conductor.<br>
-        Contamos con coberturas, que se adaptan a sus necesidades:<br>
-        Amplia: Cubre daños materiales, cristales, robo total, responsabilidad civil por daños a terceros, protección legal, gastos médicos de los ocupantes, asistencia vial y cobertura por accidentes al conductor.</p>
-        
-        <p>Usted podrá contratar el Seguro de Auto <br>
-en cualquiera de nuestras sucursales CIBanco a nivel nacional, o solicítelo diréctamente a su ejecutivo.</p>
-        
-        <p>El pago de la póliza lo podrá realizar con cargo a una tarjeta de crédito, cargo a cuenta y/o cheque de CIBanco o en efectivo.</p>
-        <p>Para adquirir el seguro, presente copia de la factura del auto y, en su caso, la tarjeta a la cual se le cargará el monto.</p>
-        
-        <p>Contamos con 3 opciones de servicio a nivel nacional: Aseguradora</p><br>
-      
-         <a href="#img_cualitas" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Qualitas</a>
-         
-          <a href="#img_aba" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">ABA</a>
-          <a href="#img_axa" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">AXA</a>
-          
-          
-          <p>En caso de que solicite cancelación de la póliza generada, deberá de tramitarla en la sucursal requisitando el formato “Solicitud de cancelación”. Si indica que aplica una devolución de primas no devengadas deberá anotar el número de clabe bancaria y banco a donde se hará la transferencia. Posteriormente deberá de llamar a la Aseguradora para solicitar información sobre el día de pago, una vez que realice la cancelación en la sucursal.</p> 
-         
-   <div data-role="popup" id="img_cualitas" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
-         <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a> <a href="http://www.qualitas.com.mx/portal/web/qualitas/inicio"> <img src="images/cibanco/qua_01.jpg" alt="Photo landscape"></a>
-         </div>
-
-	<div data-role="popup" id="img_aba" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
-    	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a> <a href="http://www.abaseguros.com/Paginas/default.aspx"> <img src="images/cibanco/aba-seguros.jpg" alt="Photo landscape"></a>
-</div>
-
-	<div data-role="popup" id="img_axa" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
-    	<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a> <a href="https://axa.mx/home"> <img src="images/cibanco/carro_2_beneficio_sigue_con_auto.png" alt="Photo landscape"></a>
-
-
-</div>
-       
-       
-        </div>
-        
-        
-        
-       </div>
-       
-       
-                 
-          <div data-role="footer" data-position="fixed" data-tap-toggle="false">
-       <div data-role="navbar">
-        <ul>
-         <li><a href="#principal" data-icon="home">INICIO</a></li>
-        </ul>
-       </div>
-      </div>  
- </div>
  
   <!------------------------------creditos----------------->
   
@@ -519,11 +456,22 @@ en cualquiera de nuestras sucursales CIBanco a nivel nacional, o solicítelo dir
         	 <h1>CREDITOS</h1>
        	</div>
         <div data-role="main" class="ui-content" >
-        <div align="center">
+      
        
+       <div data-role="collapsible" data-theme="a" data-content-theme="b">
+		<h2>CIAuto ESPECIAL</h2>
+    <ul data-role="listview">
+        <li><a href="#">CIAuto</a></li>
+		<li><a href="#">CIAuto Verde</a></li>
+        <li><a href="#">CIAuto Seminuevos</a></li>
+     </ul>
+		</div>
         
         
-        </div>
+        <div> <input type="button" data-icon="check" data-iconpos="right" value="CIPanel Solar"></div>
+        <div> <input type="button" data-icon="check" data-iconpos="right" value="CICredito Personal"></div>
+       
+       
        </div>
           <div data-role="footer" data-position="fixed" data-tap-toggle="false">
        <div data-role="navbar">
