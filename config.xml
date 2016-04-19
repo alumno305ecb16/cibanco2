@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+ <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
+ <widget xmlns   = "http://www.w3.org/ns/widgets"  
+     xmlns:gap = "http://phonegap.com/ns/1.0"  
+     id    = "com.phonegap.Medico"  
+     version  = "1.0.0">  
+	 
+   <name>CiBanco</name>  
+   
+   <description>  
+     Aplicacion para moviles.
+   </description>  
+   
+   <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
+       Yo
+   </author>  
+   
+   <!-- Personaliza la aplicacion y plataforma  -->  
+   <preference name="phonegap-version"      value="3.7.0" />    
+   <preference name="orientation"        value="portrait" />    
+   <preference name="target-device"      value="universal" />   
+   <preference name="fullscreen"         value="true" />      
+   <preference name="android-installLocation"  value="auto" />  
+   <preference name="SplashScreen" value="splash"/>
+   <preference name="SplashScreenDelay" value="5000"/>
+
+
+   <!-- Plugins -->  
+   <!-- Core plugins -->  
+
+   <gap:plugin name="org.apache.cordova.dialogs" />  
+   <gap:plugin name="org.apache.cordova.file" />  
+   <gap:plugin name="org.apache.cordova.file-transfer" />  
+   <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />  
+   <gap:plugin name="org.apache.cordova.vibration" />  
+
+   <!-- Third party plugins -->  
+   
+   <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->  
+
+   <gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" version="1.0" />
+   <gap:plugin name="com.brodysoft.sqliteplugin" version="1.0.6" />
+   
+   <!-- Define app icon for each platform. -->  
+   <icon src="logo.png" />  
+   <icon src="logo.png"  gap:platform="android"  gap:qualifier="ldpi" />  
+   <icon src="logo.png"  gap:platform="android"  gap:qualifier="mdpi" />  
+   <icon src="logo.png"  gap:platform="android"  gap:qualifier="hdpi" />  
+   <icon src="logo.png" gap:platform="android"  gap:qualifier="xhdpi" />  
+
+   <!-- Define app splash screen for each platform. -->  
+   <gap:splash src="splash.png" />
+   <gap:splash src="splash.png"    gap:platform="android" gap:qualifier="port-ldpi" />  
+   <gap:splash src="splash.png"    gap:platform="android" gap:qualifier="port-mdpi" />  
+   <gap:splash src="splash.png"    gap:platform="android" gap:qualifier="port-hdpi" />  
+   <gap:splash src="splash.png"   gap:platform="android" gap:qualifier="port-xhdpi" />  
+
+   
+ </widget>  
