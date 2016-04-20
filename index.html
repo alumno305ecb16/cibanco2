@@ -34,26 +34,61 @@
  <div data-role="page" id="principal" >   
         <div data-role="header" data-position="fixed" data-tap-toggle="false">   
         
-        <a href="#menu" data-rel="popup" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-bars ui-btn-icon-left ui-btn-a">MENU</a>
+        <a href="#menu1" data-rel="popup" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-grid ui-btn-icon-left ui-btn-a">PERSONAS</a>
+        
+         <a href="#" data-rel="popup" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-bars ui-btn-icon-right ui-btn-a">EMPRESAS</a>
           
-        	 <h1>CIBANCO</h1>
+        	 <h1>CI BANCO</h1>
        	</div>
       			  
         
         <div data-role="main" class="ui-content" >
         
-      					 <div data-role="popup" id="menu" data-theme="b">
+      					 <div data-role="popup" id="menu1" data-theme="b">
        					<ul data-role="listview" data-inset="true" style="min-width:210px;">
-            	<li data-role="list-divider">ELIGE UNA OPCION</li>
+            	<li data-role="list-divider">SERVICIOS</li>
             				
-								<li><a href="#historia">Historia</a></li>
+								
                                 <li><a href="#seguros">Seguros</a></li>
                                 <li><a href="#pcreditos">Creditos</a></li>
-                                <li><a href="#etdfin">Estado Financiero Balance 2do. Trimestre 2015</a></li>
-           		 				<li><a href="#pff">Resultados 2do. Trimestre 2015</a></li>
-								
+                            	
         				</ul>
 				</div>
+                <div align="center">
+                <a href="#etdfin" class="ui-btn ui-btn-inline ui-icon-action ui-btn-icon-left">Estado Financiero Balance 2do. Trimestre 2015</a>
+                <a href="#pff" class="ui-btn ui-btn-inline ui-icon-action ui-btn-icon-right">Resultados 2do. Trimestre 2015</a>
+                </div>
+                
+                 <div data-role="collapsible" data-theme="a" data-content-theme="b" align="center">
+		<h2>HISTORIA</h2>
+    <ul data-role="listview" data-filter="falce">
+   		
+		<p>
+        Consultoría Internacional (CI) se fundó hace mas de un cuarto de siglo, en 1983, como una casa de cambio corporativa.
+        </p>
+        <p>
+        Durante estos 30 años, CI se ha venido desarrollando en forma consistente y sólida apegada a la legislación, trabajando bajo importantes niveles de eficiencia, seguridad y competitividad, siendo estos factores centrales los que le marcan la línea a seguir en el mercado cambiario.
+        </p>	
+        <p>
+        Como resultado del proceso de crecimiento, CI se consolidó como una de las mejores opciones de servicios cambiarios en México, poniendo siempre especial énfasis en las personas físicas y empresas de distintas dimensiones que tienen vínculos comerciales con el exterior.
+        </p>			 
+        <p>
+        Después de más de dos décadas de exitoso crecimiento en el medio, CI da un importante paso en abril del 2008 para convertirse en CIBanco, Institución de Banca Múltiple, con el firme propósito de posicionarse en el sistema bancario nacional.
+        </p>
+        
+        <a href="#cibanco1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/cibanco/cibanco1.jpg"  style="width:30%"></a>
+        
+        <div data-role="popup" id="cibanco1" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="images/cibanco/cibanco1.jpg" style="max-height:512px;">
+</div>
+
+
+
+
+    </ul>
+</div>
+                
+      					
         
         
         
@@ -91,58 +126,6 @@
  </div>
          
          
-       <!--------------------------HISTORIA---------------->  
-  
-  
-  
- <div data-role="page" id="historia" >   
-        <div data-role="header" data-position="fixed" data-tap-toggle="false">   
-        
-          
-        	 <h1>HISTORIA</h1>
-       	</div>
-      			  
-        
-        <div data-role="main" class="ui-content" >
-        
-        		 
-        
-        
-        <div align="center">
-      	<p>
-        Consultoría Internacional (CI) se fundó hace mas de un cuarto de siglo, en 1983, como una casa de cambio corporativa.
-        </p>
-        <p>
-        Durante estos 30 años, CI se ha venido desarrollando en forma consistente y sólida apegada a la legislación, trabajando bajo importantes niveles de eficiencia, seguridad y competitividad, siendo estos factores centrales los que le marcan la línea a seguir en el mercado cambiario.
-        </p>	
-        <p>
-        Como resultado del proceso de crecimiento, CI se consolidó como una de las mejores opciones de servicios cambiarios en México, poniendo siempre especial énfasis en las personas físicas y empresas de distintas dimensiones que tienen vínculos comerciales con el exterior.
-        </p>			 
-        <p>
-        Después de más de dos décadas de exitoso crecimiento en el medio, CI da un importante paso en abril del 2008 para convertirse en CIBanco, Institución de Banca Múltiple, con el firme propósito de posicionarse en el sistema bancario nacional.
-        </p>
-        
-        <a href="#cibanco1" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="images/cibanco/cibanco1.jpg"  style="width:40%"></a>
-        
-        <div data-role="popup" id="cibanco1" data-overlay-theme="b" data-theme="b" data-corners="false">
-    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="images/cibanco/cibanco1.jpg" style="max-height:512px;">
-</div>
-        
-        
-        
-       </div>
-       
-       
-        </div>
-         
-          <div data-role="footer" data-position="fixed" data-tap-toggle="false">
-       <div data-role="navbar">
-        <ul>
-         <li><a href="#principal" data-icon="home">INICIO</a></li>
-        </ul>
-       </div>
-      </div>  
- </div>
   <!-------------------------Estado financiero BALANCE--------------------->
   
   
@@ -273,6 +256,24 @@
        	</div>
       	<div data-role="main" class="ui-content" >
         <div align="center">
+        
+        
+        <div data-role="collapsible" data-theme="a" data-content-theme="b">
+<h2>COMO CONTRATAR ALGUN SEGURO</h2>
+    <ul data-role="listview" data-filter="falce">
+   		<p>Usted podrá contratar el seguro de algun servicio <br>
+en cualquiera de nuestras sucursales CIBanco a nivel nacional, o solicítelo diréctamente a su ejecutivo.</p>
+        
+        <p>El pago de la póliza lo podrá realizar con cargo a una tarjeta de crédito, cargo a cuenta y/o cheque de CIBanco o en efectivo.</p>
+    </ul>
+</div>
+        
+        
+        
+        
+        
+        
+        
       	 <ul data-role="listview" data-split-icon="camera" data-split-theme="a" data-inset="true">
           <li>
            <a href="#pagesegauto" class="preguntas_uno" style="background-color:#090">
@@ -425,10 +426,7 @@
         Contamos con coberturas, que se adaptan a sus necesidades:<br>
         Amplia: Cubre daños materiales, cristales, robo total, responsabilidad civil por daños a terceros, protección legal, gastos médicos de los ocupantes, asistencia vial y cobertura por accidentes al conductor.</p>
         
-        <p>Usted podrá contratar el Seguro de Auto <br>
-en cualquiera de nuestras sucursales CIBanco a nivel nacional, o solicítelo diréctamente a su ejecutivo.</p>
         
-        <p>El pago de la póliza lo podrá realizar con cargo a una tarjeta de crédito, cargo a cuenta y/o cheque de CIBanco o en efectivo.</p>
         <p>Para adquirir el seguro, presente copia de la factura del auto y, en su caso, la tarjeta a la cual se le cargará el monto.</p>
         
         <p>Contamos con 3 opciones de servicio a nivel nacional: Aseguradora</p><br>
