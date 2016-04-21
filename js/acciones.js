@@ -10,4 +10,6 @@ jQuery(document).ready(function() {
 		$.mobile.changePage("#principal",{transition:"slide",reverse:true})
 		
 	}
+	
+	
 });
