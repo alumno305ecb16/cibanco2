@@ -5,14 +5,14 @@
      id    = "com.phonegap.Medico"  
      version  = "1.0.0">  
 	 
-   <name>CiBanco</name>  
+   <name>CIBanco</name>  
    
    <description>  
      Aplicacion para moviles.
    </description>  
    
    <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       Yo
+       Alejandro Ivan Romero Portillo
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
