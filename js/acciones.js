@@ -6,10 +6,9 @@ jQuery(document).ready(function() {
 		$.mobile.changePage("#pagebanco",{transition:"slide"})
 		
 	}
-	function swipeRight(event){
-		$.mobile.changePage("#pageloc",{transition:"slide",reverse:true})
-		
-	}
+//	function swipeRight(event){
+//		$.mobile.changePage("#pageloc",{transition:"slide",reverse:true})
+//	}
 	
 	
 });
